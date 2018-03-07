@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Sergiusz Kozubek - Front End Ninja</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="responsive.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+
+    <header class="header">
+      <div class="header__inner">
+        <img class="header__logo" src="images/ninja.png" alt="awesome ninja face logo">
+        <h1 class="header__title">
+          Sergiusz Kozubek
+        </h1>
+        <a id="hamburger" class="header__menu">
+          <i  class="fas fa-bars fa-2x"></i>
+        </a>
+      </div>
+    </header>
+
+    <nav id="drawer" class="nav">
+      <ul class="nav__list">
+        <li class="nav__item"><a href="#">Link1</a></li>
+        <li class="nav__item"><a href="#">Link2</a></li>
+        <li class="nav__item"><a href="#">Link3</a></li>
+        <li class="nav__item"><a href="#">Link4</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section class="content">
+        <section class="projects">
+
+        </section>
+        <section class="content">
+          <section class="skills">
+
+          </section>
+        </section>
+      <footer>
+        <ul>
+          <li><a href="#">Contact me</a></li>
+          <li><a href="#">Follow me on Twitter</a></li>
+          <li><a href="#">Git</a></li>
+        </ul>
+      </footer>
+    </main>
+    <script>
+    /*
+     * Open the drawer when the menu ison is clicked.
+     */
+    var menu = document.querySelector('#hamburger');
+    var main = document.querySelector('main');
+    var drawer = document.querySelector('#drawer');
+
+    menu.addEventListener('click', function(e) {
+      drawer.classList.toggle('open');
+      e.stopPropagation();
+    });
+    main.addEventListener('click', function() {
+      drawer.classList.remove('open');
+    });
+    </script>
+  </body>
+</html>

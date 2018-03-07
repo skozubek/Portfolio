@@ -77,18 +77,11 @@ ul {
 }
 
 .banner {
+  background-image: url(images/html_screen.jpg);
   width: 100%;
-  height: 300px;
-  display: block;
-  position: relative;
-  overflow: hidden;
-}
-
-.banner img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 

@@ -62,7 +62,6 @@
     </section>
     <section class="bio">
       <h3 class="content__header"><a id="bio"></a>About me</h3>
-      <!--<img src="images/Profile_avatar_placeholder_large.png" alt="Profile picture"> -->
       <p class="bio__info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
@@ -77,22 +76,6 @@
       </ul>
     </footer>
   </main>
-  <script>
-    /*
-     * Open the drawer when the menu icon is clicked.
-     */
-    var menu = document.querySelector('#hamburger');
-    var main = document.querySelector('main');
-    var drawer = document.querySelector('#drawer');
-
-    menu.addEventListener('click', function(e) {
-      drawer.classList.toggle('open');
-      e.stopPropagation();
-    });
-    main.addEventListener('click', function() {
-      drawer.classList.remove('open');
-    });
-  </script>
 </body>
-
+<script defer src="js/script.js"></script>
 </html>

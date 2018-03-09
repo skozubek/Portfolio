@@ -176,7 +176,7 @@ main {
    color: #2d3c49;
  }
 
- .project__item img {
+ .project__img {
     max-width: 90%;
     max-height: 90%;
     display: block;
@@ -184,7 +184,7 @@ main {
     margin-right: auto;
  }
 
- .project__item a {
+ .project__link {
    font-weight: 100;
    font-size: 0.9em;
    margin: 0.2em 0.2em;
@@ -198,7 +198,7 @@ main {
    width: 100%;
  }
 
- .bio p {
+ .bio__info {
    width: 80%;
    max-width: 800px;
    line-height: 1.5em;

@@ -12,11 +12,13 @@
     display: flex;
     flex-flow: wrap;
   }
+
   .header__logo {
     height: 55px;
     margin: 1em 1em 0 0.3em;
     vertical-align: top;
   }
+
   .titles {
     margin-right: 3em;
     flex-direction: row;
@@ -29,24 +31,29 @@
     display: flex;
     flex-flow: wrap;
   }
+
   .header__logo {
     height: 55px;
     margin: 1em 1em 0 0.3em;
     vertical-align: top;
   }
+
   .titles {
     margin-right: 3em;
     flex-direction: column;
     text-align: left;
   }
+
   .header__title {
     font-size: 1.5em;
     font-weight: 200;
   }
+
   .header__subtitle {
     font-size: 1em;
     font-weight: 200;
   }
+
   .nav {
     z-index: 10;
     background-color: #fff;
@@ -58,16 +65,19 @@
     /* Optionally, we animate the drawer. */
     transition: transform 0.3s ease;
   }
+
   .nav.open {
     -webkit-transform: translate(0, 0);
     transform: translate(0, 0);
   }
+
   .nav__item {
     display: list-item;
     border-bottom: 1px solid #E0E0E0;
     width: 100%;
     text-align: center;
   }
+
   .header__menu {
     display: inline-block;
     position: absolute;
@@ -76,13 +86,14 @@
     margin: 1.8em;
     color: Tomato;
   }
+
   .project__item {
     width: 100%;
     flex-grow: 1;
     margin-top: 2em;
     margin-bottom: 2em;
   }
-
+  
   .project__img {
     max-width: 75%;
     max-height: 75%;
